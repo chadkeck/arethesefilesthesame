@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset=utf-8 />
+
+		<title>Are These Files The Same?</title>
+
+        <head>
+            <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+            <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+            <!--[if IE]>
+            <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+            <![endif]-->
+        </head>
+
+		<script type="text/javascript" src="javascripts/lib/jquery-1.6.2.js"></script>
+        <script type="text/javascript" src="javascripts/lib/jquery.tmpl.js"</script>
+
+		<!--[if IE]-->
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<!--[endif]-->
+
+		<script type="text/javascript" src="javascripts/lib/modernizr-2.0.min.js"></script>
+		<script type="text/javascript" src="javascripts/lib/sha1.js"></script>
+
+		<script type="text/javascript" src="javascripts/digester.js"></script>
+		<script type="javascript/worker" src="javascripts/digester_worker.js"></script>
+		<script type="text/javascript" src="javascripts/ingestion_engine.js"></script>
+
+	</head>
+
+	<body id="page">
+
+        <script id="entry-tmpl" type="text/x-jquery-tmpl">
+        </script>
+
+
+        <div id="drop-area-container" class="container_12"> 
+            <div class="grid_12"> 
+                <h2>The easiest and most secure way to get file hashes on the web!</h2>
+            </div> <!-- end .grid_12 --> 
+
+            <div id="drop-zone" class="grid_12"> 
+                <div id="drop-zone-text">
+                    Drop Files Here To Get Their Hashes
+                </div>
+            </div> <!-- end .grid_12 --> 
+            <div class="clear"></div> 
+        </div> <!-- end .container_12 --> 
+
+        <div id="results-container" class="container_12">
+        </div>
+
+        <!--
+        <div id="footer" class="container_12">
+            <div class="grid_12">
+                <ul id="footer-list">
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Source Code</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        -->
+
+
+	</body> 
+</html>
